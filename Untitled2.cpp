@@ -1,3 +1,5 @@
+//take three different numbers as input and prints the largest one.
+
 #include <stdio.h>
 
 int main() {
@@ -25,4 +27,5 @@ int main() {
 
     
 }
+
 
