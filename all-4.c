@@ -1,14 +1,12 @@
-// print sum
-#include<stdio.h>
-int main() 
-{
-    int a,b,sum;
-    a=10;
-    b=20;
-    sum=a+b;
-    printf("sum=%d",sum);
-    return 0;
-}
+#include <stdio.h>
 
+int main() {
+    double num1, num2, num3;
 
-Output- sum=30
+    printf("Enter three numbers: ");
+    scanf("%lf %lf %lf", &num1, &num2, &num3);
+
+    if (num1 >= num2 && num1 >= num3)
+        printf("Largest number = %.2lf\n", num1);
+    else if (num2 >= num1 && num2 >= num3)
+        printf("Largest number = %.2lf\n", n

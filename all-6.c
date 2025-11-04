@@ -1,13 +1,19 @@
-#include<stdio.h>
-int main() 
-{
-    int a,b,sum;
-    printf("enter the value of a and b");
-    scanf("%d","%d",&a,&b);
-    sum=a+b;
-    printf("sum of %d and %d is %d",a,b,sum);
+#include <stdio.h>
+
+int main() {
+    int dividend, divisor, quotient, remainder;
+
+    printf("Enter dividend: ");
+    scanf("%d", &dividend);
+
+    printf("Enter divisor: ");
+    scanf("%d", &divisor);
+
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+
+    printf("Quotient = %d\n", quotient);
+    printf("Remainder = %d\n", remainder);
+
     return 0;
 }
-
-
-Output- enter the value of a and bsum of -283770352 and 32764 is -283737588

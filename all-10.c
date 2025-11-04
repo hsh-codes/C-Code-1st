@@ -1,20 +1,11 @@
-#include <stdio.h>
-//Q12.WAP TO check the validity of a triangler 
+ #include <stdio.h>
+
 int main() {
-    float s1, s2, s3;
+    int choice, a, b;
 
-    // Taking input from the user
-    printf("Enter the three sides of the triangle:\n");
-    scanf("%f %f %f", &s1, &s2, &s3);
-
-    // Checking validity condition
-    if((s1 + s2 > s3) &&
-       (s2 + s3 > s1) &&
-       (s1 + s3 > s2)) {
-        printf("The given sides form a valid triangle.\n");
-    } else {
-        printf("The given sides do NOT form a valid triangle.\n");
-    }
-
-    return 0;
-}
+    printf("Choose Operator Type:\n");
+    printf("1. Relational Operators\n");
+    printf("2. Logical Operators\n");
+    printf("3. Bitwise Operators\n");
+    printf("4. Assignment Operators\n");
+    printf("5. Increment/
